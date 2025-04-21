@@ -1,0 +1,5645 @@
+[
+  {
+    "id": "budget_10000",
+    "name": "10,000 Package",
+    "budgetAmount": 10000,
+    "description": "A 10,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "client_pre_ko",
+            "name": "Client Pre-KO",
+            "description": "Client Pre-KO",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination- PreProduction",
+            "description": "Resource Coordination- PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "_estimate_for_voice_over_cost_",
+            "name": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "description": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_animation",
+            "name": "Art Direction - Animation",
+            "description": "Art Direction - Animation",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 4,
+            "durationHours": 32,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 11
+  },
+  {
+    "id": "budget_12000",
+    "name": "12,000 Package",
+    "budgetAmount": 12000,
+    "description": "A 12,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "client_pre_ko",
+            "name": "Client Pre-KO",
+            "description": "Client Pre-KO",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_preproduction",
+            "name": "Art Direction - PreProduction",
+            "description": "Art Direction - PreProduction",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination- PreProduction",
+            "description": "Resource Coordination- PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "_estimate_for_voice_over_cost_",
+            "name": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "description": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_animation",
+            "name": "Art Direction - Animation",
+            "description": "Art Direction - Animation",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 5,
+            "durationHours": 40,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 13
+  },
+  {
+    "id": "budget_15000",
+    "name": "15,000 Package",
+    "budgetAmount": 15000,
+    "description": "A 15,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "client_pre_ko",
+            "name": "Client Pre-KO",
+            "description": "Client Pre-KO",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 1.75,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination- PreProduction",
+            "description": "Resource Coordination- PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "_estimate_for_voice_over_cost_",
+            "name": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "description": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direection_animation",
+            "name": "Art Direection - Animation",
+            "description": "Art Direection - Animation",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 7,
+            "durationHours": 56,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 16
+  },
+  {
+    "id": "budget_17500",
+    "name": "17,500 Package",
+    "budgetAmount": 17500,
+    "description": "A 17,500 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "client_pre_ko",
+            "name": "Client Pre-KO",
+            "description": "Client Pre-KO",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 1.75,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination- PreProduction",
+            "description": "Resource Coordination- PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "_estimate_for_voice_over_cost_",
+            "name": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "description": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_animation",
+            "name": "Art Direction - Animation",
+            "description": "Art Direction - Animation",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 9,
+            "durationHours": 72,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 19
+  },
+  {
+    "id": "budget_20000",
+    "name": "20,000 Package",
+    "budgetAmount": 20000,
+    "description": "A 20,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "client_pre_ko",
+            "name": "Client Pre-KO",
+            "description": "Client Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2.5,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 7,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination- PreProduction",
+            "description": "Resource Coordination- PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "_estimate_for_voice_over_cost_",
+            "name": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "description": "\"\"\"Estimate for Voice Over Cost\"\"\"",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.75,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_animation",
+            "name": "Art Direction - Animation",
+            "description": "Art Direction - Animation",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 9,
+            "durationHours": 72,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 2,
+            "durationHours": 10,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 21
+  },
+  {
+    "id": "budget_25000",
+    "name": "25,000 Package",
+    "budgetAmount": 25000,
+    "description": "A 25,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "pre_ko",
+            "name": "Pre-KO",
+            "description": "Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_01",
+            "name": "Scripting 01 + Verbal Beats",
+            "description": "Scripting 01 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 2.5,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02a",
+            "name": "Scripting 02 + Verbal Beats",
+            "description": "Scripting 02 + Verbal Beats",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management - Planning",
+            "description": "Account Management - Planning",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_planning",
+            "name": "Resource Coordination - Planning",
+            "description": "Resource Coordination - Planning",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_03",
+            "name": "Scripting 03",
+            "description": "Scripting 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02b",
+            "name": "CD Handoffs",
+            "description": "CD Handoffs",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "creative_director",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_04",
+            "name": "Story Plan Meeting 04",
+            "description": "Story Plan Meeting 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_05",
+            "name": "Story Plan Meeting 05",
+            "description": "Story Plan Meeting 05",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination - PreProduction",
+            "description": "Resource Coordination - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "estimated_vo_cost",
+            "name": "Estimated VO Cost",
+            "description": "Estimated VO Cost",
+            "durationDays": 1,
+            "durationHours": 7,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_assets",
+            "name": "Art Direction - Assets",
+            "description": "Art Direction - Assets",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_animation",
+            "name": "Art Direction - Animation",
+            "description": "Art Direction - Animation",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 12,
+            "durationHours": 94,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 2,
+            "durationHours": 12,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 7,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 26
+  },
+  {
+    "id": "budget_30000",
+    "name": "30,000 Package",
+    "budgetAmount": 30000,
+    "description": "A 30,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "pre_ko",
+            "name": "Pre-KO",
+            "description": "Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_01",
+            "name": "Scripting 01",
+            "description": "Scripting 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "story_plan_meeting_01",
+            "name": "Story Plan Meeting 01",
+            "description": "Story Plan Meeting 01",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02b",
+            "name": "Scripting 02",
+            "description": "Scripting 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_02",
+            "name": "Story Plan Meeting 02",
+            "description": "Story Plan Meeting 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_planning",
+            "name": "Resource Coordination - Planning",
+            "description": "Resource Coordination - Planning",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_03",
+            "name": "Scripting 03",
+            "description": "Scripting 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_03",
+            "name": "Story Plan Meeting 03",
+            "description": "Story Plan Meeting 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_04",
+            "name": "Story Plan Meeting 04",
+            "description": "Story Plan Meeting 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_05",
+            "name": "Story Plan Meeting 05",
+            "description": "Story Plan Meeting 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_preproduction",
+            "name": "Art Direction - PreProduction",
+            "description": "Art Direction - PreProduction",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination - PreProduction",
+            "description": "Resource Coordination - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "estimated_vo_cost",
+            "name": "Estimated VO Cost",
+            "description": "Estimated VO Cost",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_production",
+            "name": "Art Direction - Production",
+            "description": "Art Direction - Production",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 14,
+            "durationHours": 108,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 3,
+            "durationHours": 22,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 31
+  },
+  {
+    "id": "budget_37000",
+    "name": "37,000 Package",
+    "budgetAmount": 37000,
+    "description": "A 37,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "pre_ko",
+            "name": "Pre-KO",
+            "description": "Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_01",
+            "name": "Scripting 01",
+            "description": "Scripting 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "story_plan_meeting_01",
+            "name": "Story Plan Meeting 01",
+            "description": "Story Plan Meeting 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "Scripting 02",
+            "description": "Scripting 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_02",
+            "name": "Story Plan Meeting 02",
+            "description": "Story Plan Meeting 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management - Planning",
+            "description": "Account Management - Planning",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_planning",
+            "name": "Resource Coordination - Planning",
+            "description": "Resource Coordination - Planning",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_03",
+            "name": "Scripting 03",
+            "description": "Scripting 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_03",
+            "name": "Story Plan Meeting 03",
+            "description": "Story Plan Meeting 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 2,
+            "durationHours": 12,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_04",
+            "name": "Story Plan Meeting 04",
+            "description": "Story Plan Meeting 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_05",
+            "name": "Story Plan Meeting 05",
+            "description": "Story Plan Meeting 05",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_preproduction",
+            "name": "Art Direction - PreProduction",
+            "description": "Art Direction - PreProduction",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination - PreProduction",
+            "description": "Resource Coordination - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "estimated_vo_cost",
+            "name": "Estimated VO Cost",
+            "description": "Estimated VO Cost",
+            "durationDays": 2,
+            "durationHours": 10,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_production",
+            "name": "Art Direction - Production",
+            "description": "Art Direction - Production",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 19,
+            "durationHours": 145,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 4,
+            "durationHours": 28,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 7,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 40
+  },
+  {
+    "id": "budget_40000",
+    "name": "40,000 Package",
+    "budgetAmount": 40000,
+    "description": "A 40,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "pre_ko",
+            "name": "Pre-KO",
+            "description": "Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_01",
+            "name": "Scripting 01",
+            "description": "Scripting 01",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "story_plan_meeting_01",
+            "name": "Story Plan Meeting 01",
+            "description": "Story Plan Meeting 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "Scripting 02",
+            "description": "Scripting 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_02",
+            "name": "Story Plan Meeting 02",
+            "description": "Story Plan Meeting 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management - Planning",
+            "description": "Account Management - Planning",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_planning",
+            "name": "Resource Coordination - Planning",
+            "description": "Resource Coordination - Planning",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_03",
+            "name": "Scripting 03",
+            "description": "Scripting 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_03",
+            "name": "Story Plan Meeting 03",
+            "description": "Story Plan Meeting 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_04",
+            "name": "Story Plan Meeting 04",
+            "description": "Story Plan Meeting 04",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_05",
+            "name": "Story Plan Meeting 05",
+            "description": "Story Plan Meeting 05",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_preproduction",
+            "name": "Art Direction - PreProduction",
+            "description": "Art Direction - PreProduction",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination - PreProduction",
+            "description": "Resource Coordination - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "estimated_vo_cost",
+            "name": "Estimated VO Cost",
+            "description": "Estimated VO Cost",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voiceover",
+            "name": "Voiceover",
+            "description": "Voiceover",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_production",
+            "name": "Art Direction - Production",
+            "description": "Art Direction - Production",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management - Production",
+            "description": "Account Management - Production",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 22,
+            "durationHours": 170,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 4,
+            "durationHours": 25,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 42
+  },
+  {
+    "id": "budget_60000",
+    "name": "60,000 Package",
+    "budgetAmount": 60000,
+    "description": "A 60,000 package with comprehensive production services.",
+    "stages": [
+      {
+        "id": "planning",
+        "name": "Planning",
+        "description": "Initial project planning and discovery phase",
+        "activities": [
+          {
+            "id": "pre_ko",
+            "name": "Pre-KO",
+            "description": "Pre-KO",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "research_prep",
+            "name": "Research/Prep",
+            "description": "Research/Prep",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "researcher",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "kickoff",
+            "name": "KO call",
+            "description": "KO call",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_01",
+            "name": "Scripting 01",
+            "description": "Scripting 01",
+            "durationDays": 1,
+            "durationHours": 3,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "story_plan_meeting_01",
+            "name": "Story Plan Meeting 01",
+            "description": "Story Plan Meeting 01",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_01",
+            "name": "Beats 01 / Mood Boards",
+            "description": "Beats 01 / Mood Boards",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_01",
+            "name": "Story Plan 01",
+            "description": "Story Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_01",
+            "name": "Story Plan 01 Review Call",
+            "description": "Story Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "scripting_handoff_02",
+            "name": "Scripting 02",
+            "description": "Scripting 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_02",
+            "name": "Story Plan Meeting 02",
+            "description": "Story Plan Meeting 02",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_02",
+            "name": "Beats 02",
+            "description": "Beats 02",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_02",
+            "name": "Story Plan 02",
+            "description": "Story Plan 02",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_story_plan_02",
+            "name": "Story Plan 02 Review Call",
+            "description": "Story Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_planning",
+            "name": "Account Management- Planning",
+            "description": "Account Management- Planning",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_planning",
+            "name": "Resource Coordination - Planning",
+            "description": "Resource Coordination - Planning",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": false
+      },
+      {
+        "id": "pre_production",
+        "name": "Pre-Production",
+        "description": "Script and visual development phase",
+        "activities": [
+          {
+            "id": "scripting_handoff_03",
+            "name": "Scripting 03",
+            "description": "Scripting 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "writer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_03",
+            "name": "Story Plan Meeting 03",
+            "description": "Story Plan Meeting 03",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_03",
+            "name": "Beats 03",
+            "description": "Beats 03",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_01",
+            "name": "Style 01",
+            "description": "Style 01",
+            "durationDays": 4,
+            "durationHours": 32,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "vo_casting",
+            "name": "VO Casting",
+            "description": "VO Casting",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_01",
+            "name": "Production Plan 01",
+            "description": "Production Plan 01",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_01",
+            "name": "Production Plan 01 Review Call",
+            "description": "Production Plan 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_04",
+            "name": "Story Plan Meeting 04",
+            "description": "Story Plan Meeting 04",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "handoff_04_beats_04",
+            "name": "Beats 04",
+            "description": "Beats 04",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "illustrator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "style_02",
+            "name": "Style 02",
+            "description": "Style 02",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_02",
+            "name": "Production Plan 02",
+            "description": "Production Plan 02",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_production_plan_02",
+            "name": "Production Plan 02 Review Call",
+            "description": "Production Plan 02 Review Call",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "story_plan_meeting_05",
+            "name": "Story Plan Meeting 05",
+            "description": "Story Plan Meeting 05",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "beats_05",
+            "name": "Beats 05",
+            "description": "Beats 05",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "style_03",
+            "name": "Style 03",
+            "description": "Style 03",
+            "durationDays": 1,
+            "durationHours": 2,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03",
+            "name": "Production Plan 03",
+            "description": "Production Plan 03",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "production_plan_03_review_call",
+            "name": "Production Plan 03 Review Call",
+            "description": "Production Plan 03 Review Call",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "budget_timeline_meeting",
+            "name": "Budget + Timeline Meeting",
+            "description": "Budget + Timeline Meeting",
+            "durationDays": 1,
+            "durationHours": 1.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_preproduction",
+            "name": "Account Management - PreProduction",
+            "description": "Account Management - PreProduction",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_preproduction",
+            "name": "Art Direction - PreProduction",
+            "description": "Art Direction - PreProduction",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "resource_coordination_preproduction",
+            "name": "Resource Coordination - PreProduction",
+            "description": "Resource Coordination - PreProduction",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      },
+      {
+        "id": "production",
+        "name": "Production",
+        "description": "Animation, sound design, and final delivery",
+        "activities": [
+          {
+            "id": "production_meeting",
+            "name": "Production Meeting",
+            "description": "Production Meeting",
+            "durationDays": 1,
+            "durationHours": 5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "estimated_vo_cost",
+            "name": "Estimated VO Cost",
+            "description": "Estimated VO Cost",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "voicever",
+            "name": "Voicever",
+            "description": "Voicever",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "art_direction_production",
+            "name": "Art Direction - Production",
+            "description": "Art Direction - Production",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "account_management_production",
+            "name": "Account Management- Production",
+            "description": "Account Management- Production",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "client_review_draft_01",
+            "name": "Full Draft 01 Delivery",
+            "description": "Full Draft 01 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "project_manager",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "review_call_draft_01",
+            "name": "Animation 01 Review Call",
+            "description": "Animation 01 Review Call",
+            "durationDays": 1,
+            "durationHours": 1,
+            "resourceType": "project_manager",
+            "canHaveRevisions": true,
+            "defaultRevisions": 1,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "full_draft_02_delivery",
+            "name": "Full Draft 02 Delivery",
+            "description": "Full Draft 02 Delivery",
+            "durationDays": 1,
+            "durationHours": 0.5,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "animation_01",
+            "name": "Animation 01",
+            "description": "Animation 01",
+            "durationDays": 32,
+            "durationHours": 250,
+            "resourceType": "animator",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "music_composition",
+            "name": "Music Composition 01",
+            "description": "Music Composition 01",
+            "durationDays": 3,
+            "durationHours": 24,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "sound_design_draft_01",
+            "name": "Sound Design 01",
+            "description": "Sound Design 01",
+            "durationDays": 1,
+            "durationHours": 8,
+            "resourceType": "sound_designer",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": true
+          },
+          {
+            "id": "animation_02",
+            "name": "Animation 02",
+            "description": "Animation 02",
+            "durationDays": 5,
+            "durationHours": 40,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "music_composition_02",
+            "name": "Music Composition 02",
+            "description": "Music Composition 02",
+            "durationDays": 2,
+            "durationHours": 16,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "sound_design_02",
+            "name": "Sound Design 02",
+            "description": "Sound Design 02",
+            "durationDays": 1,
+            "durationHours": 4,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          },
+          {
+            "id": "ph_admin",
+            "name": "PH Admin",
+            "description": "PH Admin",
+            "durationDays": 1,
+            "durationHours": 6,
+            "resourceType": "team_member",
+            "canHaveRevisions": false,
+            "defaultRevisions": 0,
+            "visibleOnCalendar": false
+          }
+        ],
+        "isMilestone": true
+      }
+    ],
+    "totalDays": 63
+  }
+]
